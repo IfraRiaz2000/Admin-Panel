@@ -1,0 +1,151 @@
+.widgetSm {
+    flex: 1;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+    position: relative;
+    background-color: #e9f9f9;
+    border-radius: 20px;
+    opacity: 0.8;
+    /* z-index: 999;  */
+}
+
+.widgetBox {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    padding: 15px;
+    background-color: rgb(30, 140, 161);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    margin-left: 100px;
+    box-shadow: rgba(15, 189, 237, 0.2) 0px 8px 24px;
+    color: white;
+}
+
+.widgetSmTitle {
+    font-size: 22px;
+    font-weight: 600;
+}
+.userDetails {
+    display: flex;
+    align-items: center;
+  }
+
+.widgetSmImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.widgetSmList {
+    margin-top: 35px;
+    padding: 0;
+    list-style: none;
+
+}
+
+.widgetSmListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+    margin-top: 20px;
+    border-bottom: 1px solid #cddbdb;
+}
+
+.widgetSmUser {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+  
+}
+
+.widgetSmUsername {
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.widgetSmUserEmail {
+    font-weight: 300;
+}
+
+.widgetSmButton {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    /* background-color: #eeeef7;
+    color: grey; */
+    background-color: rgb(40, 47, 54);
+    color: white;
+}
+
+.widgetSmIcon {
+    font-size: 16px !important;
+    margin-right: 5px;
+
+}
+
+.widgetSmUserDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4f6a74;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.widgetSmUserDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align content on left and right sides */
+  }
+  
+  .widgetSmUserDetailsLeft {
+    display: flex;
+    align-items: center;
+  }
+  
+  .widgetSmUserDetailsLeft img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px; /* Make the image square by setting border-radius to 4px */
+    margin-right: 10px; /* Add margin between the image and the right side content */
+  }
+  
+  .widgetSmUserDetailsRight {
+    flex-grow: 1; /* Allow the right side content to grow and occupy remaining space */
+  }
+  
+  /* .widgetSmUserDetailsRight h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  } */
+  
+  .widgetSmUserDetailsRight p {
+    font-size: 14px;
+    color: #f7f7f7;
+  }
+
+.topleft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.topright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

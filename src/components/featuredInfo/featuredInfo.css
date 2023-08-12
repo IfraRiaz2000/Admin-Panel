@@ -1,0 +1,114 @@
+.featured {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.featuredItem {
+  flex: 1;
+  margin: 0px 20px;
+  padding: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: relative;
+  background-color: #e9f9f9;
+  opacity: 0.8;
+}
+.userBox {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  padding: 20px;
+  background-color: rgb(37, 176, 204);
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  margin-left: 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.featuredTitle {
+  font-size: 20px;
+  font-weight: 400;
+color: rgb(43, 59, 54);
+
+}
+.featureContainer {
+  flex-direction: column;
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  /* margin-left: 30px; */
+  float: right;
+}
+
+/* .featureContainer::after {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 70px;
+  background-color: transparent;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 0;
+  right: 0;
+} */
+.featuredMoney {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(43, 59, 54);
+}
+.featuredMoneyRate {
+  display: flex;
+  align-items: center;
+}
+.featuredIcon {
+  font-size: 14px;
+  margin-left: 5px;
+  color: green;
+}
+
+/* .featureContainer2 {
+  display: flex;
+  float: left;
+  margin-top: 10px;
+} */
+.featuredIcon.negative {
+  color: red;
+}
+.featuredSub {
+  font-size: 15px;
+  color: grey;
+}
+.homelancerBox{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    padding: 20px;
+    background-color: green;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    margin-left: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.serviceBox{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    padding: 20px;
+    background-color: rgb(161, 51, 115);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    margin-left: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.serviceProBar{
+  color: rgb(161, 51, 115);
+}
